@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background-color: #0b0b12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(120, 0, 255, 0.3), transparent 40%),
+    radial-gradient(circle at 80% 50%, rgba(0, 200, 255, 0.3), transparent 40%),
+    linear-gradient(to bottom, #0b0b12, #050508);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prnt_div {
+    background-color: #111118;
+    height: 700px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+}
+
+.line-top {
+    height: 3px;
+    width: 292px;
+    background: linear-gradient(90deg, rgb(119, 63, 236), rgb(15, 172, 214));
+    border-radius: 20px 20px 0 0;
+    margin-top: 0px;
+}
+
+.react-hook {
+    width: 90px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 8px;
+    color: #7763b6;
+    background-color: #201737;
+    border: 1px solid #362277;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.nav-text {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 15px;
+}
+
+.nav-text-h1 {
+    color: white;
+    width: 60%;
+    margin-bottom: 0;
+}
+
+.nav-text-p {
+    color: rgba(128, 128, 128, 0.461);
+    width: 90%;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+.watch-panel {
+    position: absolute;
+    top: 170px;
+    background-color: #0b0b10;
+    border: 1px solid #191924;
+    border-radius: 10px;
+}
+
+.loop {
+    color: #069db7;
+    font-size: 6px;
+}
+
+.watch-row {
+    /* display: flex; */
+    width: 180px;
+
+}
+
+.watch-row p {
+    color: #702bdc;
+}
+
+/* .inputs-input{
+    width: ;
+} */
+.inputs form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs span {
+    color: #7a7a81;
+}
+
+.inputs {
+    position: absolute;
+    top: 300px;
+    margin-top: 20px;
+}
+
+.inputs input:focus {
+    border: 1px solid #702bdc;
+}
+
+.inputs input {
+    background-color: #1a1a21;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #79797f;
+    outline: none;
+}
+
+.full-name {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.username {
+    margin-bottom: 10px;
+}
+
+.selection {
+    margin-bottom: 10px;
+}
+
+.inputs-email {
+    margin-bottom: 10px;
+}
+
+#selector {
+    background-color: #1a1a21;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #79797f;
+}
+
+#selector:focus {
+    border: 1px solid #702bdc;
+}
